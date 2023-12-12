@@ -3,7 +3,7 @@ import { useWeather } from '../context/Weather';
 
 const Input = () => {
   const weather = useWeather();
-  console.log('Weather', weather);
+
   return (
     <input
       className='input-field'
